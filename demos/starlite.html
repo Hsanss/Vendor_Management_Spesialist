@@ -1153,7 +1153,7 @@ tr.q-bad > td { background: rgba(244,63,94,.07) !important; }
         .fin-mini b.nil { color: #cbd5e1; font-weight: 500; } html.dark .fin-mini b { color: #6ee7b7; } html.dark .fin-mini b.nil { color: #475569; }
         .po-more { flex-shrink: 0; padding: 0 5px; border-radius: 6px; font-size: 9.5px; font-weight: 800; background: rgba(6,182,212,.12); color: #0e7490; }
         table.fit-table td { padding-top: 9px !important; padding-bottom: 9px !important; }
-        /* ---------- detail takeover ---------- */
+        /* ---------- detail take over ---------- */
         .td-alert { display: flex; gap: 10px; align-items: flex-start; padding: 10px 12px; border-radius: 14px; background: rgba(217,119,6,.1); border: 1px solid rgba(217,119,6,.3); color: #92400e; font-size: 12px; }
         html.dark .td-alert { color: #fcd34d; }
         .td-hero { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1.25fr); gap: 14px; padding: 14px; border-radius: 18px; background: linear-gradient(135deg, rgba(6,182,212,.08), rgba(53,88,200,.06)); border: 1px solid rgba(6,182,212,.22); }
@@ -1570,10 +1570,10 @@ tr.q-bad > td { background: rgba(244,63,94,.07) !important; }
                         <i class="sidebar-text fa-solid fa-chevron-right text-[10px] opacity-70"></i>
                     </button>
 
-                    <button onclick="switchTab('takeover')" id="nav-takeover" title="Data Mitra Takeover" class="nav-btn w-full px-3.5 py-3 rounded-2xl text-xs font-bold transition-all flex items-center justify-between border border-transparent hover:bg-emerald-50 dark:hover:bg-slate-800/60 group text-slate-600 dark:text-slate-400">
+                    <button onclick="switchTab('takeover')" id="nav-takeover" title="Data Mitra Take Over" class="nav-btn w-full px-3.5 py-3 rounded-2xl text-xs font-bold transition-all flex items-center justify-between border border-transparent hover:bg-emerald-50 dark:hover:bg-slate-800/60 group text-slate-600 dark:text-slate-400">
                         <div class="flex items-center gap-3">
                             <i class="fa-solid fa-handshake-angle text-sm shrink-0 group-hover:scale-110 transition-transform"></i>
-                            <span class="sidebar-text">Data Mitra Takeover</span>
+                            <span class="sidebar-text">Data Mitra Take Over</span>
                         </div>
                         <span id="sidebar-takeover-badge" class="sidebar-text text-[10px] font-mono px-2 py-0.5 rounded-full bg-cyan-500/10 dark:bg-slate-800 text-cyan-700 dark:text-cyan-400">0</span>
                     </button>
@@ -1710,7 +1710,7 @@ tr.q-bad > td { background: rgba(244,63,94,.07) !important; }
                     <div class="glass-panel rounded-2xl p-5 xl:col-span-2">
                         <div class="flex items-center justify-between mb-3">
                             <div>
-                                <h3 class="text-sm font-extrabold text-slate-900 dark:text-white">Komposisi Status Takeover</h3>
+                                <h3 class="text-sm font-extrabold text-slate-900 dark:text-white">Komposisi Status Take Over</h3>
                                 <p class="text-[11px] text-slate-500 dark:text-slate-400">Klik segmen untuk membuka datanya</p>
                             </div>
                         </div>
@@ -1718,7 +1718,7 @@ tr.q-bad > td { background: rgba(244,63,94,.07) !important; }
                     </div>
                     <div class="glass-panel rounded-2xl p-5 xl:col-span-3">
                         <div class="mb-3">
-                            <h3 class="text-sm font-extrabold text-slate-900 dark:text-white">Status Takeover per Region</h3>
+                            <h3 class="text-sm font-extrabold text-slate-900 dark:text-white">Status Take Over per Region</h3>
                             <p class="text-[11px] text-slate-500 dark:text-slate-400">Jumlah PO per region, dipecah per status</p>
                         </div>
                         <div class="chart-box"><canvas id="chart-region"></canvas></div>
@@ -1744,7 +1744,7 @@ tr.q-bad > td { background: rgba(244,63,94,.07) !important; }
                     <div class="glass-panel rounded-2xl p-5">
                         <div class="mb-3">
                             <h3 class="text-sm font-extrabold text-slate-900 dark:text-white">Top 10 Mitra Before / Underperform</h3>
-                            <p class="text-[11px] text-slate-500 dark:text-slate-400">Mitra lama yang paling banyak PO-nya mengalami takeover &middot; klik untuk detail</p>
+                            <p class="text-[11px] text-slate-500 dark:text-slate-400">Mitra lama yang paling banyak PO-nya mengalami take over &middot; klik untuk detail</p>
                         </div>
                         <div class="chart-box"><canvas id="chart-mitra-before"></canvas></div>
                     </div>
@@ -1787,7 +1787,7 @@ tr.q-bad > td { background: rgba(244,63,94,.07) !important; }
                 </div>
             </section>
 
-            <!-- ================= VIEW: TAKEOVER ================= -->
+            <!-- ================= VIEW: TAKE OVER ================= -->
             <section id="view-takeover" class="tab-view space-y-5 hidden">
                 <div class="glass-panel rounded-2xl p-4 space-y-3">
                     <div class="flex flex-wrap items-center gap-2">
@@ -1797,7 +1797,7 @@ tr.q-bad > td { background: rgba(244,63,94,.07) !important; }
                         </div>
                         <select id="takeover-region-filter" onchange="applyTakeoverFilters(true)" class="field"><option value="">Semua Region</option></select>
                         <select id="takeover-status-filter" onchange="applyTakeoverFilters(true)" class="field">
-                            <option value="">Semua Status Takeover</option>
+                            <option value="">Semua Status Take Over</option>
                             <option value="selesai">Selesai</option>
                             <option value="proses">Sedang Proses</option>
                             <option value="belum">Belum Mulai</option>
@@ -1841,7 +1841,7 @@ tr.q-bad > td { background: rgba(244,63,94,.07) !important; }
                 <div class="glass-panel rounded-2xl overflow-hidden ">
                     <div class="p-4 bg-emerald-100/50 dark:bg-slate-900/50 border-b border-cyan-500/20 dark:border-slate-800 flex items-center justify-between gap-3 flex-wrap">
                         <div>
-                            <span class="text-xs font-extrabold text-slate-800 dark:text-slate-300 uppercase tracking-wider block">Datatable Takeover Starlite</span>
+                            <span class="text-xs font-extrabold text-slate-800 dark:text-slate-300 uppercase tracking-wider block">Datatable Take Over Starlite</span>
                             <span class="text-[10px] text-slate-500 dark:text-slate-400 font-medium">Klik judul kolom untuk mengurutkan &middot; klik baris untuk detail lengkap</span>
                         </div>
                         <span id="takeover-count-badge" class="px-3 py-1 rounded-full bg-cyan-200/80 dark:bg-slate-800 text-cyan-800 dark:text-cyan-300 text-[10px] font-mono font-bold">0 Baris</span>
@@ -1869,7 +1869,7 @@ tr.q-bad > td { background: rgba(244,63,94,.07) !important; }
                         <option value="">Semua Keterlibatan</option>
                         <option value="after">Menjadi Mitra After</option>
                         <option value="before">Menjadi Mitra Before</option>
-                        <option value="none">Tidak ada PO Takeover</option>
+                        <option value="none">Tidak ada PO Take Over</option>
                         <option value="sp">Memiliki SP</option>
                     </select>
                     <select id="perseroan-complete-filter" onchange="applyPerseroanFilters(true)" class="field">
@@ -1888,7 +1888,7 @@ tr.q-bad > td { background: rgba(244,63,94,.07) !important; }
                     <div class="p-4 bg-emerald-100/50 dark:bg-slate-900/50 border-b border-cyan-500/20 dark:border-slate-800 flex items-center justify-between gap-3 flex-wrap">
                         <div>
                             <span class="text-xs font-extrabold text-slate-800 dark:text-slate-300 uppercase tracking-wider block">Master Data Info Perseroan</span>
-                            <span class="text-[10px] text-slate-500 dark:text-slate-400 font-medium">Terhubung otomatis ke data Takeover &amp; SP berdasarkan nama perusahaan</span>
+                            <span class="text-[10px] text-slate-500 dark:text-slate-400 font-medium">Terhubung otomatis ke data Take Over &amp; SP berdasarkan nama perusahaan</span>
                         </div>
                         <span id="perseroan-count-badge" class="px-3 py-1 rounded-full bg-emerald-200/80 dark:bg-slate-800 text-emerald-800 dark:text-slate-300 text-[10px] font-mono font-bold">0 Mitra</span>
                     </div>
@@ -1909,7 +1909,7 @@ tr.q-bad > td { background: rgba(244,63,94,.07) !important; }
                         <span class="w-10 h-10 rounded-xl bg-indigo-500/15 text-indigo-600 flex items-center justify-center"><i class="fa-solid fa-file-signature"></i></span>
                         <div>
                             <h2 class="text-sm font-extrabold text-slate-900 dark:text-white">All SPK</h2>
-                            <p class="text-[11px] text-slate-500 dark:text-slate-400">Tracker SPK VM — seluruh SPK Takeover, Expand, New &amp; lainnya</p>
+                            <p class="text-[11px] text-slate-500 dark:text-slate-400">Tracker SPK VM — seluruh SPK Take Over, Expand, New &amp; lainnya</p>
                         </div>
                     </div>
                     <div class="flex items-center gap-2">
@@ -2338,7 +2338,7 @@ tr.q-bad > td { background: rgba(244,63,94,.07) !important; }
                         <div class="glass-panel rounded-2xl p-4 space-y-2">
                             <h3 class="text-sm font-extrabold text-slate-900 dark:text-white"><i class="fa-solid fa-bolt text-cyan-600 mr-1.5"></i>Pengajuan &amp; Format</h3>
                             <a href="#demo" target="_blank" rel="noopener" class="ql-item"><span class="ql-ic" style="background:#7c3aed1f;color:#7c3aed"><i class="fa-solid fa-list-check"></i></span><span class="min-w-0 flex-1"><b>Form Pengajuan Migrasi Akun IKR &amp; Create Stasiun</b><small>Google Form · buka di tab baru</small></span><i class="fa-solid fa-arrow-up-right-from-square text-[10px] text-slate-400"></i></a>
-                            <a href="#demo" class="ql-item" onclick="showToast('Mengunduh format pengajuan SP & Takeover…','info')"><span class="ql-ic" style="background:#2563eb1f;color:#2563eb"><i class="fa-solid fa-file-word"></i></span><span class="min-w-0 flex-1"><b>Format Pengajuan SP &amp; Takeover</b><small>Klik untuk langsung mengunduh (.docx)</small></span><i class="fa-solid fa-download text-[10px] text-slate-400"></i></a>
+                            <a href="#demo" class="ql-item" onclick="showToast('Mengunduh format pengajuan SP & Take Over…','info')"><span class="ql-ic" style="background:#2563eb1f;color:#2563eb"><i class="fa-solid fa-file-word"></i></span><span class="min-w-0 flex-1"><b>Format Pengajuan SP &amp; Take Over</b><small>Klik untuk langsung mengunduh (.docx)</small></span><i class="fa-solid fa-download text-[10px] text-slate-400"></i></a>
                         </div>
                         <div class="glass-panel rounded-2xl p-4 space-y-3">
                             <div>
