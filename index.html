@@ -941,7 +941,7 @@ button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var
 @media(max-width:520px){.ach-grid{grid-template-columns:1fr}.ach-card{padding:22px}.ach-desc{font-size:13px}.app-demo-toolbar{font-size:10px}.app-switch button{flex:1;padding:11px}.app-showcase iframe{height:600px}.app-feature-map{padding:14px}.app-feature-panel{padding:14px}.cert-grid{grid-template-columns:1fr}.sec-h{letter-spacing:-.6px}.cm-n{font-size:24px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1!important;transform:none!important}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 }
-</style></head>
+</style><link rel="stylesheet" href="clean.css?v=clean1"></head>
 <body>
 
 <!-- LOADING SCREEN -->
@@ -2156,7 +2156,7 @@ if (themeBtn) {
     themeBtn.textContent = isLight ? '☀️' : '🌙';
     localStorage.setItem('theme', isLight ? 'light' : 'dark');
   });
-  if (localStorage.getItem('theme') === 'light') {
+  if (localStorage.getItem('theme') !== 'dark') {
     document.body.classList.add('light');
     themeBtn.textContent = '☀️';
   }
