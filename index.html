@@ -941,7 +941,7 @@ button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var
 @media(max-width:520px){.ach-grid{grid-template-columns:1fr}.ach-card{padding:22px}.ach-desc{font-size:13px}.app-demo-toolbar{font-size:10px}.app-switch button{flex:1;padding:11px}.app-showcase iframe{height:600px}.app-feature-map{padding:14px}.app-feature-panel{padding:14px}.cert-grid{grid-template-columns:1fr}.sec-h{letter-spacing:-.6px}.cm-n{font-size:24px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1!important;transform:none!important}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 }
-</style><link rel="stylesheet" href="clean.css?v=clean1"></head>
+</style><link rel="stylesheet" href="clean.css?v=clean2"></head>
 <body>
 
 <!-- LOADING SCREEN -->
@@ -2359,3 +2359,4 @@ document.querySelectorAll('.ach-card').forEach(card => {
 </script>
 <script>document.querySelectorAll('[data-app]').forEach(button=>button.addEventListener('click',()=>{const star=button.dataset.app==='starlite';document.querySelectorAll('[data-app]').forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button));});document.getElementById('app-caption-star').hidden=!star;document.getElementById('app-caption-nikah').hidden=star;document.getElementById('app-frame-star').hidden=!star;const n=document.getElementById('app-frame-nikah');n.hidden=star;if(!star&&!n.src)n.src=n.dataset.src;document.getElementById('app-open').href='demos/'+(star?'starlite':'siap-nikah')+'.html?v=polish1';}));</script></body>
 </html>
+

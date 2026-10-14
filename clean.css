@@ -1,5 +1,6 @@
 /* Portfolio presentation: calm surfaces, consistent rhythm, touch-friendly controls. */
 @media screen {
+  #loader { display:none!important; }
   :root { --max:1160px; --radius-lg:14px; --radius-xl:18px; --gold:#d1b879; --gold-soft:rgba(209,184,121,.09); --body:#c0cbc5; --muted:#95a69b; }
   body.light { background:#fff; color:#192820; --bg:#fff; --bg2:#f5f7f6; --panel:#fff; --panel2:#f5f7f6; --ink:#192820; --body:#4b5b52; --muted:#65746b; --gold:#80672f; --gold-soft:#f5f1e8; --gold-mid:#9b8045; --border:#e5eae7; --border2:#d8e0da; --green-acc:#276344; }
   body.light nav { background:rgba(255,255,255,.97); border-color:var(--border); }
