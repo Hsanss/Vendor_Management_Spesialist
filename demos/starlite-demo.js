@@ -40,10 +40,11 @@ function seedPortfolioDemo(){
  REQ.items=[];REQ.loaded=true;REQ.err='';SURAT.loaded=true;SURAT.errors={};SURAT.data={};
  STATE.lastSync=Date.now();STATE.linksLoaded=true;STATE.fromCache=true;
  $('login-screen').classList.add('hidden');$('app-container').classList.remove('hidden');$('user-display-name').textContent='Pengunjung Demo';
- renderUserChip();applyPermissions();sidebarStage=window.innerWidth<768?2:0;applySidebarStage();refreshAll();
+ renderUserChip();applyPermissions();sidebarStage=window.innerWidth<768?2:(window.innerWidth<1100?1:0);applySidebarStage();refreshAll();
  document.querySelectorAll('[data-logo]').forEach(el=>el.src=LOGO_SRC);
  switchTab('sirkulir');
  const banner=document.createElement('div');banner.id='portfolio-demo-label';banner.textContent='DEMO INTERAKTIF • Data contoh • E-signing digunakan seluruh divisi pada aplikasi operasional';banner.style.cssText='position:fixed;bottom:0;left:0;right:0;z-index:10000;padding:7px 12px;background:#0f172a;color:#e2e8f0;font:11px system-ui;text-align:center;pointer-events:none';document.body.append(banner);
 }
 window.addEventListener('DOMContentLoaded',()=>{try{seedPortfolioDemo();}catch(e){console.error('Demo initialization:',e);const b=document.createElement('p');b.textContent='Demo belum termuat: '+e.message;document.body.prepend(b);}});
 window.addEventListener('message',e=>{if(e.source===parent&&e.data?.type==='portfolio-view'&&['dashboard','sirkulir','takeover','refund','sp','docs'].includes(e.data.view)){switchTab(e.data.view);}});
+
