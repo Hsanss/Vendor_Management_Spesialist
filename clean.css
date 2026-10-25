@@ -51,3 +51,112 @@
     .lc-tab { font-size:11px; padding:12px; }.lc-panel.on { gap:22px; }.lc-text h3 { font-size:18px; }.flow-step { padding:16px 12px; }.exp-item { padding:26px 0; }.exp-role { font-size:17px; }.exp-ul li { font-size:12.5px; }.chip { font-size:10.5px; }.btt { right:12px; bottom:12px; width:36px; height:36px; opacity:.9; }.cta-btn { min-width:0; padding:18px; }.cta-label,.cta-val { overflow-wrap:anywhere; }
   }
 }
+
+
+/* 25 October 2026: compact editorial rhythm, preserving the established palette. */
+@media screen {
+  .sec { padding:36px 0; }
+  .sec-h { margin-bottom:18px!important; }
+  .sec-eye { margin-bottom:8px; }
+  .sec-sub { margin-bottom:20px; line-height:1.65; }
+  .hero { padding-top:calc(var(--nh) + 30px)!important; padding-bottom:28px!important; }
+  .hero-grid { gap:28px; align-items:start; }
+  .hero-title { font-size:12px; line-height:1.65; margin-bottom:12px; }
+  .hero-desc { margin-bottom:16px; line-height:1.7; }
+  .recruiter-actions { gap:8px; margin:0 0 18px; }
+  .recruiter-actions a { min-height:44px; padding:10px 15px; font-size:12px; }
+  .hero-stats .hs { padding:13px 12px; }
+  .hs-num { margin-bottom:4px; }
+  .vms-snapshot { max-width:var(--max); padding:24px 40px; }
+  .vms-snapshot h2 { font-size:29px; margin:8px 0; }
+  .vms-snapshot .vs-scope { max-width:86ch; }
+  .vms-snapshot .vs-grid { margin:14px 0; gap:12px; }
+  .vms-snapshot article { padding:16px; }
+  .vms-snapshot article strong { font-size:25px; }
+  .vms-snapshot p { line-height:1.6; }
+  .vms-snapshot .vs-note { margin:8px 0; }
+  .ach-grid { gap:12px; }
+  .ach-card { padding:18px; gap:7px; }
+  .ach-desc { line-height:1.65; }
+  .ach-title { margin:0; font-size:14px; line-height:1.45; }
+  .ach-cat { font-size:10px; }
+  .ach-tag { padding-top:8px; }
+  .more-achievements { margin-top:14px; padding-top:8px; }
+  .more-achievements>summary { padding-bottom:12px; min-height:44px; }
+  .who-card { padding:20px; }
+  .who-card li { line-height:1.65; margin-bottom:8px; }
+  .profile-detail { margin-bottom:12px; line-height:1.6; }
+  .document-breakdown { margin-top:16px; border-top:1px solid var(--border); padding-top:8px; }
+  .document-breakdown>summary { cursor:pointer; padding:10px 0; min-height:44px; color:var(--gold); font-size:13px; font-weight:600; }
+  .doc-counter { margin-top:8px; }
+  .dc { padding:14px 10px; }
+  .flow { margin-bottom:20px; }
+  .flow-step { padding:15px 10px; }
+  .lc-panel { padding-top:20px; }
+  .lc-panel.on { gap:24px; }
+  .lc-text p,.lc-text li { line-height:1.65; }
+  .lc-text ul { gap:7px; }
+  .lc-stat-row { margin-top:16px; }
+  .lc-s { padding:13px; }
+  #career-evidence { margin:12px auto!important; padding:20px!important; background:var(--panel)!important; color:var(--ink)!important; border-color:var(--border2)!important; }
+  #career-evidence h2 { font-size:23px!important; margin:8px 0!important; }
+  #career-evidence p { font-size:13px; line-height:1.65!important; }
+  #career-evidence a { min-height:44px; }
+  #career-evidence a:last-child { color:var(--gold)!important; }
+  .case + .case { margin-top:18px!important; }
+  .case-top { padding:20px 22px 0; }
+  .case-h { font-size:22px; line-height:1.35; }
+  .case-desc,.case-col p,.case-col li { line-height:1.65; }
+  .case-tags { margin-top:12px; margin-bottom:16px; }
+  .case-metrics { margin-top:16px; }
+  .cm { padding:17px 12px; }
+  .case-col { padding:20px 22px; }
+  .compact-demo { margin-top:18px; border:1px solid var(--border2); border-radius:14px; overflow:hidden; }
+  .compact-demo>summary { cursor:pointer; min-height:48px; padding:14px 18px; color:var(--gold); font-size:14px; font-weight:700; }
+  .compact-demo .app-showcase { margin:0; border:0; border-top:1px solid var(--border); border-radius:0; padding:18px; }
+  .app-feature-map { margin-top:14px; padding:16px; }
+  .app-feature-panels { gap:12px; margin-top:14px; }
+  .app-feature-panel { padding:14px; }
+  .app-feature-map p { line-height:1.65; }
+  .exp-item { padding:22px 0; gap:24px; }
+  .exp-item::before { top:30px; }
+  .exp-where { margin-bottom:10px; line-height:1.6; }
+  .exp-ul { gap:7px; }
+  .exp-ul li { line-height:1.7; }
+  .sk-group { padding:18px; }
+  .skills-wrap { gap:14px; }
+  .chip { padding:5px 9px; }
+  .edu-main { padding:22px; }
+  .cert-wrap { margin-top:20px; }
+  .cert { padding:15px 18px; }
+  .contact-cta-wrap { gap:24px; }
+  footer { padding-top:28px; padding-bottom:28px; }
+  summary:focus-visible { outline:2px solid var(--gold); outline-offset:4px; }
+  @media(max-width:860px) {
+    .hero { padding-top:94px!important; }
+    .sec { padding:28px 0; }
+    .sec-h { margin-bottom:16px!important; }
+    .vms-snapshot { padding:22px 24px; }
+    .hero-grid { gap:18px!important; }
+    .who-grid { gap:14px; }
+  }
+  @media(max-width:520px) {
+    .hero { padding-top:88px!important; padding-bottom:22px!important; }
+    .hero-desc { font-size:13px; line-height:1.7; }
+    .hero-name { margin-bottom:8px; }
+    .hero-stats .hs { padding:12px 10px; }
+    .recruiter-actions a { flex:1 1 auto; text-align:center; }
+    .vms-snapshot { padding:18px 20px; }
+    .vms-snapshot h2 { font-size:25px; }
+    .ach-card,.who-card,.sk-group { padding:17px; }
+    .ach-desc,.who-card li { line-height:1.7; }
+    .profile-detail { margin-bottom:10px; }
+    .case-top { padding:18px 18px 0; }
+    .case-h { font-size:20px; }
+    .case-col { padding:18px; }
+    .exp-ul li { font-size:13px; }
+    .app-showcase iframe { height:580px; }
+    #career-evidence { margin-left:20px!important; margin-right:20px!important; padding:17px!important; }
+  }
+}
+@media print { .compact-demo>summary { display:none; } .compact-demo>.app-showcase { display:block; } }
