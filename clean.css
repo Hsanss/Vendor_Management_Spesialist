@@ -160,3 +160,7 @@
   }
 }
 @media print { .compact-demo>summary { display:none; } .compact-demo>.app-showcase { display:block; } }
+
+
+.technical-depth{margin-top:12px;border-top:1px solid var(--border);padding-top:8px}.technical-depth>summary{cursor:pointer;min-height:44px;display:flex;align-items:center;color:var(--gold);font-size:12px;font-weight:600}.technical-depth>.sk-chips{padding-top:8px}
+@media screen and (min-width:861px){.sec{padding:30px 0}.hero-grid{gap:24px}.who-card li{margin-bottom:6px}.sk-group{padding:16px}}
